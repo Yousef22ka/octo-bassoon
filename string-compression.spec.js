@@ -6,7 +6,7 @@
 
 const compressor = require('./string-compression');
 
-describe('The StringCompressor', ()=> {
+describe('compressor', ()=> {
   it('returns an empty string if passed an empty string', ()=> {
     expect(compressor('')).toEqual('');
   })
