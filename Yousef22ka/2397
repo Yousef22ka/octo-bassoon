@@ -1,0 +1,2 @@
+var input1 = 'abc';   //compressor(input1) = 'abc'  no compression possible
+var input2 = 'aaabcdde';  //compressor(input2) = 'a3bcd2e'  repeat counts for repeated letters
